@@ -1,0 +1,57 @@
+/* Container */
+.head {
+  color: whitesmoke;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .right{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+  h3{
+    text-decoration: underline 2px;
+  }
+  
+  /* Button */
+  .book button {
+    padding: 20px 40px;
+    background-color: #007bff;
+    margin-right: 35px;
+    margin-bottom: 10px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book button:hover {
+    background-color: #0056b3;
+  }
+  .heart{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  /* Link
+  .book a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .book a:hover {
+    text-decoration: underline;
+  } */
+  
